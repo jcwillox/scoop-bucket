@@ -1,134 +1,41 @@
-# Generic scoop bucket
+# Scoop Bucket
 
-❗❗🎉 Repository was converted into Template. See [blog](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/?utm_campaign=1559837005&utm_medium=social&utm_source=twitter&utm_content=1559837005) for more information. 🎉❗❗
+Add the bucket to scoop
 
-In this repository you will find everything you need to know about creating custom bucket with appveyor support.
+```powershell
+scoop bucket add jcwillox https://github.com/jcwillox/scoop-bucket
+```
 
-- [Files and helpers](#files-and-helpers)
-    - [`bucket` Folder](#bucket-folder)
-    - [`bin` Folder](#bin-folder)
-    - [`Bucket.Tests.ps1` File](#buckettestsps1-file)
-    - [`.vscode` Folder](#vscode-folder)
-    - [`.github` Folder](#github-folder)
-    - [`config files`](#config-files)
-- [How to use and adopt this bucket](#how-to-use-and-adopt-this-bucket)
+Install an app specifically from this bucket
 
-## Files and helpers
+```powershell
+scoop install jcwillox/<app>
+```
 
-### `bucket` Folder
+## Manifests
 
-- All manifests belong here
-- `.gitkeep` file could be removed after you push your first manifest
-
-### `bin` Folder
-
-Scripts which will save you time while debuging and writing manifests.
-If you need help how to use them just run `Get-Help .\bin\<BINARY>.ps1`.
-
-### `Bucket.Tests.ps1` File
-
-- Test which are executed inside Appveyor pipeline
-- Could be configured as `pre_commit` hook
-
-### `.vscode` Folder
-
-Contains all syntax highlighting, code formating, manifest creating tools you could use.
-
-- Extensions
-    - All extensions which will save your time while writing manifests are in recommended sections
-    - You will be notified about installing them when you open project
-- Settings
-    - All settings are set to be compatible with Appveyor pipeline and upstream (official) repositories
-        - No need to worry about formating restrictions between repositories.
-- Code snippets
-    - > Code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional-statements.
-    - You could use workspace wide code snippets for speed up manifest creating
-    - While editing json file write partitial name of snippet and press `tab`
-    - Available Json snippets:
-        - `app`
-            - Create default manifest structure
-        - `appArch`
-            - Create default manifest structure with full acrchitecture
-        - `arch`
-            - Create only architecture property with 64bit and 32bit
-        - `upAr`
-            - Create autoupdate property with architecture
-        - `persistCheck`
-            - Installer / pre_install script for checking if file is already persisted or need to be created
-
-### `.github` Folder
-
-GitHub repository configuration.
-
-- `workflows` folder
-    - Linux (legacy) version [GitHub Actions](https://github.com/features/actions) configuration for automatic issue/PR/updates handling.
-    - Windows version of actions could be used for better and future proof implementation (see <https://github.com/Ash258/Scoop-GithubActions/tree/main-win> for updated configs)
-- `CODEOWNERS`
-    - Pull requests will request review for users defined in this file
-- `PULL REQUEST TEMPLATE`
-    - Prefilled pull request types with proper titles
-- `ISSUE TEMPLATE`
-    - The most used issue templates for users to select and prefilled with required information and labels
-
-### `config files`
-
-- `.appveyor.yml`
-    - Definition of Appveyor CI pipeline
-- `.editorconfig`
-    - Universal configuration file, compatible with all types of editors
-    - Defines how files should look
-- `.gitattributes`
-    - Simplifying line endings for git
-    - No need to configure `auto.clrf` setting on each clone or new workspaces
-- `Bucket.Tests.ps1`
-    - Test which are executed inside Appveyor pipeline
-    - Could be configured as `pre_commit` hook
-
-## How to use and adopt this bucket
-
-1. Click on `Use this template` to create new repository in your account with same files
-1. Open project settings and **give your bucket in new name**
-1. Add proper description of repository
-    - Information about what type of manifests could be found here
-1. Add `scoop-bucket` tag for repository
-    - Your manifests will be automatically available at <https://scoop-docs.now.sh/apps/>
-1. Enable appveyor CI/CD
-    1. Register / Login to [Appveyor](https://ci.appveyor.com/login)
-    1. Click `New Project`
-    1. From Left Panel, choose your source control variant (Github)
-    1. From Right Panel, choose repository with bucket and click `+ Add`
-    1. 🎉 Project created and ready to build 🎉
-    1. Get Badge URL
-        1. Open Appveyor Project settings
-        1. Navigate to Badges
-        1. Copy `Branch Sample markdown code` snippet for further usage
-            - Only master branch is better, since you can freely test in other branches and do not mystificate users
-            - [You could use alternative styles](https://shields.io/category/build#styles)
-1. Clone project into some folder
-    - `git clone git@github.com:USER/REPO.git MyAwesomeBucket`
-    - or
-    - `git clone https://github.com/USER/REPO.git MyAwesomeBucket`
-1. Open vscode with this clone
-    - `code MyAwesomeBucket`
-1. _[optional]_ Configure remote repository
-    1. `git remote add 'upstream' 'https://github.com/Ash258/GenericBucket.git'`
-    - This step will allow you to synchronize changes with this template repository
-    - If some changes are pushed into this repository and you want to reflect them into your bucket, you can simply do something like:
-        - `git fetch --all`
-        - `git checkout -B upstream-master -t upstream/master`
-        - Do changes
-        - `git merge master` or create PR in github
-1. Create proper README.md
-    1. [Open this README in the browser for reference](https://github.com/Ash258/GenericBucket/tree/master/README.md)
-    1. Open `README.template.md`
-    1. Replace all `%%templatestring%%` with real and according values
-        1. Replace appveyor status badge with yours
-            - See: <https://appveyor.com/docs/status-badges/>
-    1. Override this README with completed `README.template.md`
-    1. Remove template `README.template.md`
-1. Repository tweaks
-    1. Open `.github\CODEOWNERS` and change `@Ash258` to desired github username
-    1. Actions
-        1. Open each file in `.github\workflows` and change `youremail@email.com` with your email
-        1. Visit <https://github.com/Ash258/Scoop-GithubActions> for more information
-1. 🎉🎉 Everything set. High quality and automated bucket is ready for new users 🎉🎉
+<table>
+<tr><td><a href='https://www.draw.io'><b>Draw.io (Portable)</b></a> — <a href='bucket/draw.io-portable.json'><code>draw.io-portable</code></a> <br> Professional diagramming <br><br></td></tr>
+<tr><td><a href='https://github.com/esphome/esphome-flasher'><b>ESPHome Flasher</b></a> — <a href='bucket/esphome-flasher.json'><code>esphome-flasher</code></a> <br> Simple GUI tool to flash ESPs over USB <br><br></td></tr>
+<tr><td><a href='https://github.com/BattloXX/ESPEasyFlasher'><b>FlashESP8266</b></a> — <a href='bucket/FlashESP8266.json'><code>FlashESP8266</code></a> <br> Small UI to Flash ESPEasy <br><br></td></tr>
+<tr><td><a href='https://ghidra-sre.org/'><b>Ghidra</b></a> — <a href='bucket/ghidra.json'><code>ghidra</code></a> <br> Ghidra is a software reverse engineering (SRE) framework by the NSA <br><br></td></tr>
+<tr><td><a href='https://handbrake.fr'><b>HandBrake (Portable)</b></a> — <a href='bucket/handbrake-portable.json'><code>handbrake-portable</code></a> <br> A tool for converting video from nearly any format to a selection of modern, widely supported codecs. <br><br></td></tr>
+<tr><td><a href='https://imagemagick.org/'><b>ImageMagick (Pure)</b></a> — <a href='bucket/imagemagick-pure.json'><code>imagemagick-pure</code></a> <br> Create, edit, compose, and convert 200+ of bitmap images formats. <br><br></td></tr>
+<tr><td><a href='https://multimc.org/'><b>MultiMC</b></a> — <a href='bucket/multimc.json'><code>multimc</code></a> <br> Launcher for Minecraft that allows for multiple, cleanly separated instances of Minecraft. <br><br></td></tr>
+<tr><td><a href='https://github.com/jaquadro/NBTExplorer'><b>NBTExplorer</b></a> — <a href='bucket/nbtexplorer.json'><code>nbtexplorer</code></a> <br> A graphical NBT editor for all Minecraft NBT data sources <br><br></td></tr>
+<tr><td><a href='https://www.nirsoft.net/utils/nircmd.html'><b>NirCmd</b></a> — <a href='bucket/nircmd.json'><code>nircmd</code></a> <br> Execute various system wide tasks. <br><br></td></tr>
+<tr><td><a href='https://pari.math.u-bordeaux.fr/'><b>PARI/GP</b></a> — <a href='bucket/parigp.json'><code>parigp</code></a> <br> PARI/GP is a widely used computer algebra system designed for fast computations in number theory <br><br></td></tr>
+<tr><td><a href='https://github.com/PoshCode/Configuration'><b>PSConfiguration</b></a> — <a href='bucket/PSConfiguration.json'><code>PSConfiguration</code></a> <br> A PowerShell module to help other modules have settings <br><br></td></tr>
+<tr><td><a href='https://github.com/gngrninja/PSFolderSize'><b>PSFolderSize</b></a> — <a href='bucket/PSFolderSize.json'><code>PSFolderSize</code></a> <br> A PowerShell module to get folder sizes and export information easily <br><br></td></tr>
+<tr><td><a href='https://github.com/Cologler/PSLazyCompletion'><b>PSLazyCompletion</b></a> — <a href='bucket/PSLazyCompletion.json'><code>PSLazyCompletion</code></a> <br> Lazy load completion scripts for powershell <br><br></td></tr>
+<tr><td><a href='https://github.com/marcelstoer/nodemcu-pyflasher'><b>NodeMCU PyFlasher</b></a> — <a href='bucket/pyflasher.json'><code>pyflasher</code></a> <br> Self-contained NodeMCU flasher with GUI based on esptool.py and wxPython. <br><br></td></tr>
+<tr><td><a href='https://github.com/VodBox/pyWinContext'><b>pyWinContext (Portable)</b></a> — <a href='bucket/pyWinContext-portable.json'><code>pyWinContext-portable</code></a> <br> Manager for Custom Context Menus in Windows 7 and higher <br><br></td></tr>
+<tr><td><a href='https://rclone.org'><b>Rclone (Portable)</b></a> — <a href='bucket/rclone-portable.json'><code>rclone-portable</code></a> <br> Sync files and directories to and from mulitple cloud / FTP / HTTP hosters. <br><br></td></tr>
+<tr><td><a href='https://www.screentogif.com/'><b>ScreenToGif (Portable)</b></a> — <a href='bucket/screentogif-portable.json'><code>screentogif-portable</code></a> <br> Screen, webcam and sketchboard recorder with an integrated editor. <br><br></td></tr>
+<tr><td><a href='https://github.com/itead/Sonoff_Devices_DIY_Tools'><b>Sonoff DIY Tool</b></a> — <a href='bucket/sonoff-diy-tool.json'><code>sonoff-diy-tool</code></a> <br> A tool to control sonoff devices and upload new firmware. <br><br></td></tr>
+<tr><td><a href='https://github.com/tasmota/tasmotizer'><b>Tasmotizer</b></a> — <a href='bucket/tasmotizer.json'><code>tasmotizer</code></a> <br> A full-featured flashing tool for the Tasmota firmware <br><br></td></tr>
+<tr><td><a href='https://github.com/devblackops/Terminal-Icons'><b>Terminal-Icons</b></a> — <a href='bucket/terminal-icons.json'><code>terminal-icons</code></a> <br> A PowerShell module to show file and folder icons in the terminal <br><br></td></tr>
+<tr><td><a href='https://terramap.github.io/windows.html'><b>TerraMap</b></a> — <a href='bucket/terramap.json'><code>terramap</code></a> <br> TerraMap is an interactive Terraria world map viewer <br><br></td></tr>
+<tr><td><a href='https://github.com/monpjc/XAHK'><b>XAHK</b></a> — <a href='bucket/xahk.json'><code>xahk</code></a> <br> Auto Key Clicker for Minecraft - Under request from Xisuma <br><br></td></tr>
+<tr><td><a href='https://ytmdesktop.app'><b>YTM Desktop (Portable)</b></a> — <a href='bucket/ytmdesktop-portable.json'><code>ytmdesktop-portable</code></a> <br> An unofficial desktop app for YouTube Music <br><br></td></tr>
+</table>
