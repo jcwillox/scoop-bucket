@@ -14,9 +14,10 @@
         }
     },
     "bin": [
+        "gp.exe",
         [
             "gp.exe",
-            "parigp"
+            "pari-gp"
         ]
     ],
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\", \"$dir\\perl\", \"$dir\\lib\", \"$dir\\include\" -Recurse -ErrorAction \"Ignore\"",
