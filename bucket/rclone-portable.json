@@ -1,0 +1,45 @@
+{
+    "version": "1.53.2",
+    "description": "Sync files and directories to and from mulitple cloud / FTP / HTTP hosters.",
+    "homepage": "https://rclone.org",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rclone/rclone/releases/download/v1.53.2/rclone-v1.53.2-windows-amd64.zip",
+            "hash": "3f6c1661c3369708619b22062c1aa6532d6e5a9b08a4335c94c6fb827a836542",
+            "extract_dir": "rclone-v1.53.2-windows-amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/rclone/rclone/releases/download/v1.53.2/rclone-v1.53.2-windows-386.zip",
+            "hash": "3f8037d06b0067ffe389d35e2f0d510533215c1c4ddb0c54d5f48edba09fa8e8",
+            "extract_dir": "rclone-v1.53.2-windows-386"
+        }
+    },
+    "bin": "rclone.exe",
+    "persist": "rclone.conf",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\rclone.conf\") -and (Test-Path \"$env:USERPROFILE\\.config\\rclone\\rclone.conf\")) {",
+        "    Write-Host -F yellow \"Copying old '$env:USERPROFILE\\.config\\rclone\\rclone.conf' to '$persist_dir\\rclone.conf'\"",
+        "    New-Item \"$dir\\rclone.conf\" | Out-Null",
+        "    Copy-Item \"$env:USERPROFILE\\.config\\rclone\\rclone.conf\" \"$dir\\rclone.conf\" -Recurse -Force",
+        "}"
+    ],
+    "checkver": {
+        "github": "https://github.com/rclone/rclone"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-amd64.zip",
+                "extract_dir": "rclone-v$version-windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-386.zip",
+                "extract_dir": "rclone-v$version-windows-386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
