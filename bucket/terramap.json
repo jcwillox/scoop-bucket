@@ -2,7 +2,7 @@
     "version": "1.4.10",
     "description": "TerraMap is an interactive Terraria world map viewer",
     "homepage": "https://terramap.github.io/windows.html",
-    "license":"GPL-3.0",
+    "license": "GPL-3.0",
     "url": "https://terramap.github.io/resources/TerraMap-1.4.10.zip",
     "hash": "be81c3544ed49679b971144755bc8ef564fe296cc039a294c46cdff44e2fddf1",
     "pre_install": [
@@ -16,9 +16,7 @@
             "TerraMap"
         ]
     ],
-    "checkver": {
-        "regex": "Download v([\\d.]+)"
-    },
+    "checkver": "Download v([\\d.]+)",
     "autoupdate": {
         "url": "https://terramap.github.io/resources/TerraMap-$version.zip"
     }

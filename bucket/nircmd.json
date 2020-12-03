@@ -4,8 +4,8 @@
         "This is necessary for nircmd.exe to work properly."
     ],
     "version": "2.86",
-    "homepage": "https://www.nirsoft.net/utils/nircmd.html",
     "description": "Execute various system wide tasks.",
+    "homepage": "https://www.nirsoft.net/utils/nircmd.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -22,9 +22,7 @@
         "Move-Item \"$dir\\*.exe\" \"$dir\\bin\""
     ],
     "env_add_path": "bin",
-    "checkver": {
-        "regex": "<td>NirCmd v([\\d\\.]+)"
-    },
+    "checkver": "<td>NirCmd v([\\d\\.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {

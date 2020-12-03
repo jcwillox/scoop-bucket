@@ -16,9 +16,7 @@
             "HandBrake"
         ]
     ],
-    "persist": [
-        "storage"
-    ],
+    "persist": "storage",
     "checkver": {
         "github": "https://github.com/HandBrake/HandBrake"
     },
