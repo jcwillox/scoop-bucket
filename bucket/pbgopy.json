@@ -1,16 +1,16 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Command-line utility for cross-device copy and paste",
     "homepage": "https://github.com/nakabonne/pbgopy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nakabonne/pbgopy/releases/download/v0.2.0/pbgopy_0.2.0_windows_amd64.tar.gz",
-            "hash": "4b2d133ea23f747c815d9e25de4db4160cdf77ba0c0bc2358350c1f8fc0dd14b"
+            "url": "https://github.com/nakabonne/pbgopy/releases/download/v0.2.1/pbgopy_0.2.1_windows_amd64.tar.gz",
+            "hash": "46b8998e5e2908bf677df17b034aa9405c13e09e622a3394b570974d86d65619"
         },
         "32bit": {
-            "url": "https://github.com/nakabonne/pbgopy/releases/download/v0.2.0/pbgopy_0.2.0_windows_amd64.tar.gz",
-            "hash": "4b2d133ea23f747c815d9e25de4db4160cdf77ba0c0bc2358350c1f8fc0dd14b"
+            "url": "https://github.com/nakabonne/pbgopy/releases/download/v0.2.1/pbgopy_0.2.1_windows_amd64.tar.gz",
+            "hash": "46b8998e5e2908bf677df17b034aa9405c13e09e622a3394b570974d86d65619"
         }
     },
     "bin": "pbgopy.exe",
