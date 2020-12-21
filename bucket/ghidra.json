@@ -1,5 +1,5 @@
 {
-    "version": "9.2-20201113",
+    "version": "9.2.1-20201215",
     "description": "Ghidra is a software reverse engineering (SRE) framework by the NSA",
     "homepage": "https://ghidra-sre.org/",
     "license": "Apache-2.0",
@@ -9,9 +9,9 @@
             "java/openjdk"
         ]
     },
-    "url": "https://ghidra-sre.org/ghidra_9.2_PUBLIC_20201113.zip",
-    "hash": "ffebd3d87bc7c6d9ae1766dd3293d1fdab3232a99b170f8ea8b57497a1704ff6",
-    "extract_dir": "ghidra_9.2_PUBLIC",
+    "url": "https://ghidra-sre.org/ghidra_9.2.1_PUBLIC_20201215.zip",
+    "hash": "cfaeb2b5938dec90388e936f63600ad345d41b509ffed4727142ba9ed44cb5e8",
+    "extract_dir": "ghidra_9.2.1_PUBLIC",
     "bin": [
         "ghidraRun.bat",
         [
