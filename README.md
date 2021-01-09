@@ -15,11 +15,13 @@ scoop install jcwillox/<app>
 ## Manifests
 
 <table>
+<tr><td><a href='https://github.com/toolbox4minecraft/amidst'><b>Amidst</b></a> — <a href='bucket/amidst.json'><code>amidst</code></a> <br> Minecraft interface and data/structure tracking tool <br><br></td></tr>
 <tr><td><a href='https://www.draw.io'><b>Draw.io (Portable)</b></a> — <a href='bucket/draw.io-portable.json'><code>draw.io-portable</code></a> <br> Professional diagramming <br><br></td></tr>
 <tr><td><a href='https://github.com/esphome/esphome-flasher'><b>ESPHome Flasher</b></a> — <a href='bucket/esphome-flasher.json'><code>esphome-flasher</code></a> <br> Simple GUI tool to flash ESPs over USB <br><br></td></tr>
 <tr><td><a href='https://github.com/BattloXX/ESPEasyFlasher'><b>FlashESP8266</b></a> — <a href='bucket/FlashESP8266.json'><code>FlashESP8266</code></a> <br> Small UI to Flash ESPEasy <br><br></td></tr>
 <tr><td><a href='https://ghidra-sre.org/'><b>Ghidra</b></a> — <a href='bucket/ghidra.json'><code>ghidra</code></a> <br> Ghidra is a software reverse engineering (SRE) framework by the NSA <br><br></td></tr>
 <tr><td><a href='https://handbrake.fr'><b>HandBrake (Portable)</b></a> — <a href='bucket/handbrake-portable.json'><code>handbrake-portable</code></a> <br> A tool for converting video from nearly any format to a selection of modern, widely supported codecs. <br><br></td></tr>
+<tr><td><a href='https://github.com/mrvnklm/homeassistant-desktop'><b>Home Assistant (Desktop)</b></a> — <a href='bucket/homeassistant-desktop.json'><code>homeassistant-desktop</code></a> <br> Unofficial electron based desktop application for Home Assistant <br><br></td></tr>
 <tr><td><a href='https://imagemagick.org/'><b>ImageMagick (Pure)</b></a> — <a href='bucket/imagemagick-pure.json'><code>imagemagick-pure</code></a> <br> Create, edit, compose, and convert 200+ of bitmap images formats. <br><br></td></tr>
 <tr><td><a href='https://multimc.org/'><b>MultiMC</b></a> — <a href='bucket/multimc.json'><code>multimc</code></a> <br> Launcher for Minecraft that allows for multiple, cleanly separated instances of Minecraft. <br><br></td></tr>
 <tr><td><a href='https://github.com/jaquadro/NBTExplorer'><b>NBTExplorer</b></a> — <a href='bucket/nbtexplorer.json'><code>nbtexplorer</code></a> <br> A graphical NBT editor for all Minecraft NBT data sources <br><br></td></tr>
@@ -37,6 +39,7 @@ scoop install jcwillox/<app>
 <tr><td><a href='https://github.com/tasmota/tasmotizer'><b>Tasmotizer</b></a> — <a href='bucket/tasmotizer.json'><code>tasmotizer</code></a> <br> A full-featured flashing tool for the Tasmota firmware <br><br></td></tr>
 <tr><td><a href='https://github.com/devblackops/Terminal-Icons'><b>Terminal-Icons</b></a> — <a href='bucket/terminal-icons.json'><code>terminal-icons</code></a> <br> A PowerShell module to show file and folder icons in the terminal <br><br></td></tr>
 <tr><td><a href='https://terramap.github.io/windows.html'><b>TerraMap</b></a> — <a href='bucket/terramap.json'><code>terramap</code></a> <br> TerraMap is an interactive Terraria world map viewer <br><br></td></tr>
+<tr><td><a href='https://github.com/lptstr/winfetch'><b>Winfetch (Nightly)</b></a> — <a href='bucket/winfetch-nightly.json'><code>winfetch-nightly</code></a> <br> A command-line system information utility for Windows 10 <br><br></td></tr>
 <tr><td><a href='https://github.com/monpjc/XAHK'><b>XAHK</b></a> — <a href='bucket/xahk.json'><code>xahk</code></a> <br> Auto Key Clicker for Minecraft - Under request from Xisuma <br><br></td></tr>
 <tr><td><a href='https://ytmdesktop.app'><b>YTM Desktop (Portable)</b></a> — <a href='bucket/ytmdesktop-portable.json'><code>ytmdesktop-portable</code></a> <br> An unofficial desktop app for YouTube Music <br><br></td></tr>
 </table>

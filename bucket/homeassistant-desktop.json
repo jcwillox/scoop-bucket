@@ -1,0 +1,34 @@
+{
+    "version": "1.4.0",
+    "description": "Unofficial electron based desktop application for Home Assistant",
+    "homepage": "https://github.com/mrvnklm/homeassistant-desktop",
+    "license": "Apache-2.0",
+    "url": "https://github.com/mrvnklm/homeassistant-desktop/releases/download/v1.4.0/Home-Assistant-Setup-1.4.0.exe#/dl.7z",
+    "hash": "sha512:9e01eaf8d4f9d29aceefd5736837355d7772deaadc84cf97c2580c6229eab10203dbfafddcd23ed522f53443f8b943b5281dd82dab99c17eb1d1291be259a044",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
+    ],
+    "uninstaller": {
+        "script": [
+            "if ($purge) {",
+            "    $path = 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion'",
+            "    Remove-ItemProperty -Path \"$path\" -Name \"Home Assistant\"",
+            "}"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Home Assistant.exe",
+            "Home Assistant (Desktop)"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/mrvnklm/homeassistant-desktop/releases/download/v$version/Home-Assistant-Setup-$version.exe#/dl.7z",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512: $base64"
+        }
+    }
+}
