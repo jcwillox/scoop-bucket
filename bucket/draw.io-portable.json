@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/jgraph/drawio-desktop/releases/download/v14.4.2/draw.io-14.4.2.exe#/dl.7z",
-            "hash": "sha512:8f2b20ed435efdadf4195256f34fd5f2a787facba6f14f27ae33d66513dbbf433d58d4d1f782ce7b6bc7ef7649c6269d7a2a7a0a335af9ba303655d1234a82e6",
+            "hash": "ad3cd238c972b5e4476fdead5f61da44a79c17605e8e57228dc8d0611b1175cc",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
@@ -37,10 +37,6 @@
             "64bit": {
                 "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-$version.exe#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "sha512: $base64"
         }
     }
 }
