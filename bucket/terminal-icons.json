@@ -1,10 +1,10 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "A PowerShell module to show file and folder icons in the terminal",
     "homepage": "https://github.com/devblackops/Terminal-Icons",
     "license": "MIT",
-    "url": "https://www.powershellgallery.com/api/v2/package/Terminal-Icons/0.4.0#/dl.7z",
-    "hash": "a2bf8a67cc88e62ceab07ed3c42efd79f3d8f7372f0a0560896be2e284930a0d",
+    "url": "https://www.powershellgallery.com/api/v2/package/Terminal-Icons/0.5.0#/dl.7z",
+    "hash": "c4b404b8e073f97a7d2d7771e2b66cb4b918d3028849e7e01e74efb14ae71b7e",
     "pre_install": [
         "Remove-Item -Recurse \"$dir\\package\"",
         "Remove-Item -Recurse \"$dir\\_rels\"",
