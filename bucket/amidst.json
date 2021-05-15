@@ -3,6 +3,9 @@
     "description": "Minecraft interface and data/structure tracking tool",
     "homepage": "https://github.com/toolbox4minecraft/amidst",
     "license": "GPL-3.0-only",
+    "suggest": {
+        "Java Runtime Environment": "java/adoptopenjdk-hotspot-jre"
+    },
     "url": [
         "https://github.com/toolbox4minecraft/amidst/releases/download/v4.6/amidst-v4-6.jar#/amidst.jar",
         "https://raw.githubusercontent.com/toolbox4minecraft/amidst/master/src/main/resources/amidst/icon/amidst.ico"
@@ -11,7 +14,7 @@
         "137f4f718815f04a933325243ddca126c1d8d7720dcf8026926678a8a1ebe65b",
         "72a590ca98fc21d315b090b2ae82a46b99a56934c1d17e3c7ea0bba6f45a5d61"
     ],
-    "bin": "amidst.ps1",
+    "bin": "amidst.bat",
     "shortcuts": [
         [
             "amidst.bat",
@@ -20,13 +23,7 @@
             "amidst.ico"
         ]
     ],
-    "pre_install": [
-        "Set-Content -Path \"$dir\\amidst.ps1\" -Value \"java -jar `\"$dir\\amidst.jar`\" @args\"",
-        "Set-Content -Path \"$dir\\amidst.bat\" -Value \"java -jar `\"$dir\\amidst.jar`\" %*\""
-    ],
-    "suggest": {
-        "Java Runtime Environment": "java/adoptopenjdk-hotspot-jre"
-    },
+    "pre_install": "Set-Content -Path \"$dir\\amidst.bat\" -Value \"@echo off`njava -jar `\"$dir\\amidst.jar`\" %*\"",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/toolbox4minecraft/amidst/releases/download/v$version/amidst-v$dashVersion.jar#/amidst.jar"
