@@ -1,13 +1,13 @@
 {
-    "version": "0.2021.04.23",
+    "version": "0.2021.05.31",
     "description": "A command-line system information utility for Windows 10",
     "homepage": "https://github.com/lptstr/winfetch",
     "license": "MIT",
     "suggest": {
         "jcwillox/imagemagick-pure": "imagemagick-pure"
     },
-    "url": "https://raw.githubusercontent.com/lptstr/winfetch/8979bfabb1e4dac31c1adda28a04102d39c062e2/winfetch.ps1",
-    "hash": "fcc212b8bb842818d692a877ec1decbb66fba240b30a7846cb668a6738c355f2",
+    "url": "https://raw.githubusercontent.com/lptstr/winfetch/4b7453b77a998f77c6a62e3abd9d270958f34211/winfetch.ps1",
+    "hash": "e7648aaaa427481454c0ce9e64e228e0b0f70e8e59ed5e737483f712fac1e938",
     "bin": "winfetch.ps1",
     "checkver": {
         "url": "https://github.com/lptstr/winfetch/commits/master.atom",
