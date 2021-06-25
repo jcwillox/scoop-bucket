@@ -10,7 +10,7 @@
         ]
     },
     "url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.0_build/ghidra_10.0_PUBLIC_20210621.zip",
-    "hash": "a2f8a045fbec57a9c4dd7db3a158e8978a0d1ad2cb0e9ee3f4f952765725acd1",
+    "hash": "aaf84d14fb059beda10de9056e013186601962b6f87cd31161aaac57698a0f11",
     "extract_dir": "ghidra_10.0_PUBLIC",
     "bin": [
         "ghidraRun.bat",
@@ -38,7 +38,7 @@
         "extract_dir": "ghidra_$matchHead_PUBLIC",
         "hash": {
             "url": "https://github.com/NationalSecurityAgency/ghidra/releases/latest",
-            "regex": "$sha256"
+            "regex": "<code>$sha256"
         }
     }
 }
