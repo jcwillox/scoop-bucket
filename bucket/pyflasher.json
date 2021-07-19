@@ -1,18 +1,10 @@
 {
-    "version": "4.0",
+    "version": "5.0.0",
     "description": "Self-contained NodeMCU flasher with GUI based on esptool.py and wxPython.",
     "homepage": "https://github.com/marcelstoer/nodemcu-pyflasher",
     "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v4.0/NodeMCU-PyFlasher-4.0-x64.exe#/NodeMCU-PyFlasher.exe",
-            "hash": "0efe5d8b8262040273770ea2c2a225af1c10534ef14138af3bf6da0ccd266b0e"
-        },
-        "32bit": {
-            "url": "https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v4.0/NodeMCU-PyFlasher-4.0-x86.exe#/NodeMCU-PyFlasher.exe",
-            "hash": "16a7f29a3c525d482c2ec35e15ca1014c4db9a30d3e1347c409388f541623a19"
-        }
-    },
+    "url": "https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v5.0.0/NodeMCU-PyFlasher.exe",
+    "hash": "c506c4932944b8774df2070d9bc37cb217ccb3b29080e89f15e6b4b5be8955be",
     "shortcuts": [
         [
             "NodeMCU-PyFlasher.exe",
@@ -21,13 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v$version/NodeMCU-PyFlasher-$version-x64.exe#/NodeMCU-PyFlasher.exe"
-            },
-            "32bit": {
-                "url": "https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v$version/NodeMCU-PyFlasher-$version-x86.exe#/NodeMCU-PyFlasher.exe"
-            }
-        }
+        "url": "https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v$version/NodeMCU-PyFlasher.exe"
     }
 }
