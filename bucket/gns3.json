@@ -1,5 +1,5 @@
 {
-    "version": "2.2.25",
+    "version": "2.2.26",
     "description": "An advanced network simulator to design and configure virtual networks",
     "homepage": "https://gns3.com",
     "license": "GPL-3.0-only",
@@ -12,8 +12,8 @@
     "suggest": {
         "Nmap (includes Npcap)": "nmap"
     },
-    "url": "https://github.com/GNS3/gns3-gui/releases/download/v2.2.25/GNS3-2.2.25-all-in-one.exe#/dl.7z",
-    "hash": "e6ec8affd81fea4836a4b6ed185191185fea7ca2b1bb6a3ced048eecc72681e9",
+    "url": "https://github.com/GNS3/gns3-gui/releases/download/v2.2.26/GNS3-2.2.26-all-in-one.exe#/dl.7z",
+    "hash": "190bbac826b7d97f4d8fb60898ff3de4daac06f8a052f36ded3b186bf0dc231c",
     "pre_install": [
         "Move-Item \"$dir\\`$TEMP\\*\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\" -Recurse",
