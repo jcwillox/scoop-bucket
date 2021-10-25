@@ -1,16 +1,16 @@
 {
-    "version": "2-13-2",
+    "version": "2-13-3",
     "description": "PARI/GP is a widely used computer algebra system designed for fast computations in number theory",
     "homepage": "https://pari.math.u-bordeaux.fr/",
     "license": "GPL",
     "architecture": {
         "64bit": {
-            "url": "https://pari.math.u-bordeaux.fr/pub/pari/windows/Pari64-2-13-2.exe#/dl.7z",
-            "hash": "md5:f07834cc0921c6e7a1786aed5b66579b"
+            "url": "https://pari.math.u-bordeaux.fr/pub/pari/windows/Pari64-2-13-3.exe#/dl.7z",
+            "hash": "md5:399151346d5047628685f09391813951"
         },
         "32bit": {
-            "url": "https://pari.math.u-bordeaux.fr/pub/pari/windows/Pari32-2-13-2.exe#/dl.7z",
-            "hash": "md5:a19552c336a290350548af168d676ec3"
+            "url": "https://pari.math.u-bordeaux.fr/pub/pari/windows/Pari32-2-13-3.exe#/dl.7z",
+            "hash": "md5:3aa0dd3f71e900359f85ac8af64be67b"
         }
     },
     "bin": [
