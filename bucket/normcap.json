@@ -1,16 +1,27 @@
 {
-    "version": "0.1.12",
+    "version": "0.2.8",
     "description": "OCR powered screen-capture tool to capture information instead of images",
     "homepage": "https://github.com/dynobo/normcap",
-    "license": "GPL-3.0-only",
-    "url": "https://github.com/dynobo/normcap/releases/download/v0.1.12/normcap_win64.zip",
-    "hash": "2ec2c4195406cd98a3afed51502c249ef2197ccb0e524665be1658a6d1c890c7",
-    "bin": "normcap.exe",
-    "extract_dir": "normcap",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/dynobo/normcap/releases/download/v0.2.8/NormCap-Windows.msi",
+    "hash": "268d20541a3d9367ead1534fc9c3404bacae0cbe846a174a0a4c83f48c96dd55",
+    "extract_dir": "NormCap",
+    "pre_install": "Set-Content -Path \"$dir\\normcap.ps1\" -Value \"& `\"`$PSScriptRoot\\python\\python.exe`\" -m normcap @args\"",
+    "uninstaller": {
+        "script": [
+            "if ($purge) {",
+            "    Remove-Item \"HKCU:\\SOFTWARE\\normcap\" -Recurse",
+            "    Remove-Item \"$env:LOCALAPPDATA\\normcap\" -Recurse",
+            "}"
+        ]
+    },
+    "bin": "normcap.ps1",
     "shortcuts": [
         [
-            "normcap.exe",
-            "normcap"
+            "python\\pythonw.exe",
+            "NormCap",
+            "-m normcap",
+            "app\\normcap\\resources\\normcap.ico"
         ]
     ],
     "checkver": {
@@ -18,6 +29,6 @@
         "regex": ">v([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/dynobo/normcap/releases/download/v$version/normcap_win64.zip"
+        "url": "https://github.com/dynobo/normcap/releases/download/v$version/NormCap-Windows.msi"
     }
 }
