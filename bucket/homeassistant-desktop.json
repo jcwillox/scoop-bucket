@@ -1,10 +1,10 @@
 {
-    "version": "1.4.3",
+    "version": "1.4.4",
     "description": "Unofficial electron based desktop application for Home Assistant",
     "homepage": "https://github.com/mrvnklm/homeassistant-desktop",
     "license": "Apache-2.0",
-    "url": "https://github.com/mrvnklm/homeassistant-desktop/releases/download/v1.4.3/Home-Assistant-Setup-1.4.3.exe#/dl.7z",
-    "hash": "sha512:940b75b65f48891a3f7d36f6e22fc6d1682e2d3123e2edb1d49034e20a90766b6ab367dd87e6ccfb1e43d9aeb9e3a56a142db4cf03d4ea5e9e4074200285dca8",
+    "url": "https://github.com/mrvnklm/homeassistant-desktop/releases/download/v1.4.4/Home-Assistant-Setup-1.4.4.exe#/dl.7z",
+    "hash": "sha512:10fa0b2840e28e4095a7c584ac42f96db375e31136362680ed54d3a002b60ea23acd2227e5a2cb4f6db9d3ea8d552713483f2837fbdc35247dcf58a7174e878a",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
