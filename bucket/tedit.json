@@ -1,11 +1,11 @@
 {
-    "version": "4.5.6",
+    "version": "4.5.7",
     "description": "TEdit is a stand alone, open source map editor for Terraria",
     "homepage": "https://github.com/TEdit/Terraria-Map-Editor",
     "license": "MS-PL",
-    "url": "https://github.com/TEdit/Terraria-Map-Editor/releases/download/4.5.6/TEdit-4.5.6.zip",
-    "hash": "56659d6438fe4951ffbfcde32a8b3c201360dbd541437c65d91980c76e3987cb",
-    "extract_dir": "TEdit-4.5.6",
+    "url": "https://github.com/TEdit/Terraria-Map-Editor/releases/download/4.5.7/TEdit-4.5.7.zip",
+    "hash": "cd8d713da8a204ad93ae653c3208d6f7037bef98d87d2229f1d340f745025fbc",
+    "extract_dir": "TEdit-4.5.7",
     "shortcuts": [
         [
             "TEdit.exe",
