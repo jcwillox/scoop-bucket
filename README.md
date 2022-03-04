@@ -49,5 +49,6 @@ scoop install jcwillox/<app>
 <tr><td><a href='https://terramap.github.io/windows.html'><b>TerraMap</b></a> — <a href='bucket/terramap.json'><code>terramap</code></a> <br> TerraMap is an interactive Terraria world map viewer <br><br></td></tr>
 <tr><td><a href='https://github.com/lptstr/winfetch'><b>Winfetch (Nightly)</b></a> — <a href='bucket/winfetch-nightly.json'><code>winfetch-nightly</code></a> <br> A command-line system information utility for Windows 10 <br><br></td></tr>
 <tr><td><a href='https://github.com/monpjc/XAHK'><b>XAHK</b></a> — <a href='bucket/xahk.json'><code>xahk</code></a> <br> Auto Key Clicker for Minecraft - Under request from Xisuma <br><br></td></tr>
+<tr><td><a href='https://github.com/sclevine/yj'><b>yj</b></a> — <a href='bucket/yj.json'><code>yj</code></a> <br> CLI tool to convert between YAML, TOML, JSON, and HCL <br><br></td></tr>
 <tr><td><a href='https://ytmdesktop.app'><b>YTM Desktop (Portable)</b></a> — <a href='bucket/ytmdesktop-portable.json'><code>ytmdesktop-portable</code></a> <br> An unofficial desktop app for YouTube Music <br><br></td></tr>
 </table>
