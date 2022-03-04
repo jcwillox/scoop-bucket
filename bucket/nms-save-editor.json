@@ -1,0 +1,29 @@
+{
+    "version": "0.2022.02.25",
+    "description": "No Man's Sky save editor",
+    "homepage": "https://github.com/goatfungus/NMSSaveEditor",
+    "url": "https://github.com/goatfungus/NMSSaveEditor/raw/a4035225f4852b468068d6ce5171f9ca87319b47/NMSSaveEditor.jar",
+    "hash": "1623f783ce80f52ec13fef6e5b319c9be81da1c2a071c89bc7ad89a00098e100",
+    "pre_install": [
+        "Set-Content -Path \"$dir\\NMSSaveEditor.bat\" -Value \"@echo off`njava -jar `\"$dir\\NMSSaveEditor.jar`\" %*\"",
+        "if (-not (Test-Path \"$dir\\NMSSaveEditor.conf\")) { New-Item \"$dir\\NMSSaveEditor.conf\" -ItemType File | Out-Null }"
+    ],
+    "shortcuts": [
+        [
+            "NMSSaveEditor.bat",
+            "NMS Save Editor"
+        ]
+    ],
+    "persist": [
+        "backups",
+        "NMSSaveEditor.conf"
+    ],
+    "checkver": {
+        "url": "https://github.com/goatfungus/NMSSaveEditor/commits/master.atom",
+        "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>[0-9a-f]{40})",
+        "replace": "0.${1}.${2}.${3}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/goatfungus/NMSSaveEditor/raw/$matchSha/NMSSaveEditor.jar"
+    }
+}
