@@ -1,0 +1,18 @@
+{
+    "version": "0.6",
+    "description": "Auto Clicker for Minecraft",
+    "homepage": "https://github.com/histefanhere/XAHK",
+    "license": "GPL-3.0",
+    "url": "https://github.com/histefanhere/XAHK/releases/download/v0.6/Minescript.exe",
+    "hash": "6fa9dc4a9fce07b9127df460e4a74f96c715799eb0e9d6f7c58f98b9f3f68d05",
+    "shortcuts": [
+        [
+            "Minescript.exe",
+            "Minescript"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/histefanhere/XAHK/releases/download/v$version/Minescript.exe"
+    }
+}
