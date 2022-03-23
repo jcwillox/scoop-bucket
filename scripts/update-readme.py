@@ -1,3 +1,4 @@
+import argparse
 import difflib
 import json
 import os
@@ -6,26 +7,11 @@ import sys
 
 from typing import Dict, Union, List
 
-# language=markdown
-TEMPLATE = """
-# Scoop Bucket
+from natsort import os_sorted
 
-Add the bucket to scoop
-
-```powershell
-scoop bucket add jcwillox https://github.com/jcwillox/scoop-bucket
-```
-
-Install an app specifically from this bucket
-
-```powershell
-scoop install jcwillox/<app>
-```
-
-## Manifests
-
-<table>
-""".lstrip()
+parser = argparse.ArgumentParser()
+parser.add_argument("--dry-run", action="store_true")
+parser.add_argument("-o", "--output", default="README.md")
 
 
 def get_name(manifest_name: str, manifest: Dict):
@@ -34,9 +20,16 @@ def get_name(manifest_name: str, manifest: Dict):
     except (KeyError, IndexError):
         name = get_name_from_comment(manifest)
         if not name:
-            name = manifest_name.replace("-portable", "").replace("-nightly", "")
+            name = (
+                manifest_name.replace("-portable", "")
+                .replace("-np", "")
+                .replace("-py", "")
+                .replace("-nightly", "")
+            )
     if manifest_name.endswith("-portable"):
         name += " (Portable)"
+    if manifest_name.endswith("-np"):
+        name += " (Non-Portable)"
     if manifest_name.endswith("-nightly"):
         name += " (Nightly)"
     return name
@@ -76,10 +69,14 @@ def print_diff(output: str):
 
 
 def main():
-    output = TEMPLATE
+    args = parser.parse_args()
     tracked_files = get_tracked_files()
 
-    for filename in os.listdir("bucket"):
+    with open("README.template.md", encoding="UTF-8") as file:
+        output = file.read()
+    output += "<table>\n"
+
+    for filename in os_sorted(os.listdir("bucket")):
         path = f"bucket/{filename}"
         if path not in tracked_files:
             continue
@@ -87,13 +84,17 @@ def main():
             manifest = json.loads(file.read())
         manifest_name = os.path.splitext(filename)[0]
         name = get_name(manifest_name, manifest)
-        output += f"<tr><td><a href='{manifest['homepage']}'><b>{name}</b></a> — <a href='{path}'><code>{manifest_name}</code></a> <br> {manifest['description']} <br><br></td></tr>\n"
+        output += f"<tr><td><a href='{manifest['homepage']}'><b>{name}</b></a> — <a href='{path}'><code>{manifest_name}</code></a>"
+        if "description" in manifest:
+            output += f" <br> {manifest['description']} <br><br>"
+        output += "</td></tr>\n"
 
     output += "</table>\n"
     print_diff(output)
 
-    with open("README.md", "w+", encoding="UTF-8") as file:
-        file.write(output)
+    if not args.dry_run:
+        with open(args.output, "w+", encoding="UTF-8") as file:
+            file.write(output)
 
 
 if __name__ == "__main__":
