@@ -1,4 +1,5 @@
 {
+    "##": ":PARI/GP",
     "version": "2-13-3",
     "description": "PARI/GP is a widely used computer algebra system designed for fast computations in number theory",
     "homepage": "https://pari.math.u-bordeaux.fr/",

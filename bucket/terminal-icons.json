@@ -1,4 +1,5 @@
 {
+    "##": ":Terminal-Icons",
     "version": "0.9.0",
     "description": "A PowerShell module to show file and folder icons in the terminal",
     "homepage": "https://github.com/devblackops/Terminal-Icons",

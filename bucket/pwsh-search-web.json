@@ -1,4 +1,5 @@
 {
+    "##": ":PowerShell Search Web",
     "version": "0.2022.01.20",
     "description": "Adds PowerShell functions for searching the web with several popular services.",
     "homepage": "https://github.com/jcwillox/pwsh-search-web",

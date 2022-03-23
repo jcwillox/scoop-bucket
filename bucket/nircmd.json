@@ -1,5 +1,6 @@
 {
     "##": [
+        ":NirCmd",
         "An alternate to main/nircmd, it adds nircmd to the path instead of creating shims.",
         "This is necessary for nircmd.exe to work properly."
     ],

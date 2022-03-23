@@ -1,4 +1,5 @@
 {
+    "##": ":Winfetch",
     "version": "0.2022.02.19",
     "description": "A command-line system information utility for Windows 10",
     "homepage": "https://github.com/lptstr/winfetch",

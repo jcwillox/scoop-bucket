@@ -1,4 +1,5 @@
 {
+    "##": ":IPinfo",
     "version": "2.8.0",
     "description": "Official command line interface for the IPinfo API",
     "homepage": "https://github.com/ipinfo/cli",

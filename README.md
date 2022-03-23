@@ -16,7 +16,7 @@ scoop install jcwillox/<app>
 
 <table>
 <tr><td><a href='https://github.com/toolbox4minecraft/amidst'><b>Amidst</b></a> — <a href='bucket/amidst.json'><code>amidst</code></a> <br> Minecraft interface and data/structure tracking tool <br><br></td></tr>
-<tr><td><a href='https://www.draw.io'><b>Draw.io (Portable)</b></a> — <a href='bucket/draw.io-portable.json'><code>draw.io-portable</code></a> <br> Professional diagramming <br><br></td></tr>
+<tr><td><a href='https://www.draw.io'><b>draw.io (Portable)</b></a> — <a href='bucket/draw.io-portable.json'><code>draw.io-portable</code></a> <br> Professional diagramming <br><br></td></tr>
 <tr><td><a href='https://github.com/esphome/esphome-flasher'><b>ESPHome Flasher</b></a> — <a href='bucket/esphome-flasher.json'><code>esphome-flasher</code></a> <br> Simple GUI tool to flash ESPs over USB <br><br></td></tr>
 <tr><td><a href='https://github.com/BattloXX/ESPEasyFlasher'><b>FlashESP8266</b></a> — <a href='bucket/FlashESP8266.json'><code>FlashESP8266</code></a> <br> Small UI to Flash ESPEasy <br><br></td></tr>
 <tr><td><a href='https://gdevs.io/'><b>GDLauncher</b></a> — <a href='bucket/gdlauncher.json'><code>gdlauncher</code></a> <br> Simple yet powerful Minecraft custom launcher with modpack support <br><br></td></tr>
@@ -31,8 +31,8 @@ scoop install jcwillox/<app>
 <tr><td><a href='https://github.com/jaquadro/NBTExplorer'><b>NBTExplorer</b></a> — <a href='bucket/nbtexplorer.json'><code>nbtexplorer</code></a> <br> A graphical NBT editor for all Minecraft NBT data sources <br><br></td></tr>
 <tr><td><a href='https://www.nirsoft.net/utils/nircmd.html'><b>NirCmd</b></a> — <a href='bucket/nircmd.json'><code>nircmd</code></a> <br> Execute various system wide tasks. <br><br></td></tr>
 <tr><td><a href='https://github.com/goatfungus/NMSSaveEditor'><b>NMS Save Editor</b></a> — <a href='bucket/nms-save-editor.json'><code>nms-save-editor</code></a> <br> No Man's Sky save editor <br><br></td></tr>
-<tr><td><a href='https://github.com/dynobo/normcap'><b>normcap</b></a> — <a href='bucket/normcap.json'><code>normcap</code></a> <br> OCR powered screen-capture tool to capture information instead of images <br><br></td></tr>
-<tr><td><a href='https://github.com/jstarks/npiperelay'><b>Npiperelay</b></a> — <a href='bucket/npiperelay.json'><code>npiperelay</code></a> <br> Allows you to access Windows named pipes from WSL <br><br></td></tr>
+<tr><td><a href='https://github.com/dynobo/normcap'><b>NormCap</b></a> — <a href='bucket/normcap.json'><code>normcap</code></a> <br> OCR powered screen-capture tool to capture information instead of images <br><br></td></tr>
+<tr><td><a href='https://github.com/jstarks/npiperelay'><b>npiperelay</b></a> — <a href='bucket/npiperelay.json'><code>npiperelay</code></a> <br> Allows you to access Windows named pipes from WSL <br><br></td></tr>
 <tr><td><a href='https://github.com/PowerShell-Completion/npm-completion'><b>npm-completion</b></a> — <a href='bucket/npm-completion.json'><code>npm-completion</code></a> <br> A PowerShell module that adds tab completion for npm <br><br></td></tr>
 <tr><td><a href='https://pari.math.u-bordeaux.fr/'><b>PARI/GP</b></a> — <a href='bucket/pari-gp.json'><code>pari-gp</code></a> <br> PARI/GP is a widely used computer algebra system designed for fast computations in number theory <br><br></td></tr>
 <tr><td><a href='https://github.com/nakabonne/pbgopy'><b>pbgopy</b></a> — <a href='bucket/pbgopy.json'><code>pbgopy</code></a> <br> Command-line utility for cross-device copy and paste <br><br></td></tr>
@@ -50,5 +50,5 @@ scoop install jcwillox/<app>
 <tr><td><a href='https://terramap.github.io/windows.html'><b>TerraMap</b></a> — <a href='bucket/terramap.json'><code>terramap</code></a> <br> TerraMap is an interactive Terraria world map viewer <br><br></td></tr>
 <tr><td><a href='https://github.com/lptstr/winfetch'><b>Winfetch (Nightly)</b></a> — <a href='bucket/winfetch-nightly.json'><code>winfetch-nightly</code></a> <br> A command-line system information utility for Windows 10 <br><br></td></tr>
 <tr><td><a href='https://github.com/sclevine/yj'><b>yj</b></a> — <a href='bucket/yj.json'><code>yj</code></a> <br> CLI tool to convert between YAML, TOML, JSON, and HCL <br><br></td></tr>
-<tr><td><a href='https://ytmdesktop.app'><b>YTM Desktop (Portable)</b></a> — <a href='bucket/ytmdesktop-portable.json'><code>ytmdesktop-portable</code></a> <br> An unofficial desktop app for YouTube Music <br><br></td></tr>
+<tr><td><a href='https://ytmdesktop.app'><b>YouTube Music Desktop (Portable)</b></a> — <a href='bucket/ytmdesktop-portable.json'><code>ytmdesktop-portable</code></a> <br> An unofficial desktop app for YouTube Music <br><br></td></tr>
 </table>
