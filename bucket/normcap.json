@@ -1,10 +1,10 @@
 {
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "OCR powered screen-capture tool to capture information instead of images",
     "homepage": "https://github.com/dynobo/normcap",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/dynobo/normcap/releases/download/v0.3.3/NormCap-0.3.3-Windows.msi",
-    "hash": "5d39d6da4603da2d96e13a23a70aa98ec1eb2d766e2b42cb7b18235dfe8bfda6",
+    "url": "https://github.com/dynobo/normcap/releases/download/v0.3.4/NormCap-0.3.4-Windows.msi",
+    "hash": "2b84b301b5deea2133f3552c2e006bd66160459cb5f871199b57520ed3373056",
     "extract_dir": "NormCap",
     "pre_install": "Set-Content -Path \"$dir\\normcap.ps1\" -Value \"& `\"`$PSScriptRoot\\python\\python.exe`\" -m normcap @args\"",
     "uninstaller": {
