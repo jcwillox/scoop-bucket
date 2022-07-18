@@ -1,10 +1,10 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Manager for Custom Context Menus in Windows 7 and higher",
     "homepage": "https://github.com/VodBox/pyWinContext",
     "license": "GPL-3.0",
-    "url": "https://github.com/VodBox/pyWinContext/releases/download/v0.1.1/pyWinContext-32.exe",
-    "hash": "d7f30b1b8b22973fca5d79013f90bdfb2d8c8c687f706f8a6020de63f2d52f8b",
+    "url": "https://github.com/VodBox/pyWinContext/releases/download/v0.1.2/pyWinContext-32.exe",
+    "hash": "b5d418dd4784e37db2aeed4eaec8c2ebd01fb7fc4c15240b239e645349bd4fee",
     "bin": [
         [
             "pyWinContext-32.exe",
