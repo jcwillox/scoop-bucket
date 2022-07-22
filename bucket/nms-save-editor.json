@@ -1,9 +1,9 @@
 {
-    "version": "0.2022.05.31",
+    "version": "0.2022.07.22",
     "description": "No Man's Sky save editor",
     "homepage": "https://github.com/goatfungus/NMSSaveEditor",
-    "url": "https://github.com/goatfungus/NMSSaveEditor/raw/15ea6066fcc3397ba8f477c7c9d9b74aa6cf637e/NMSSaveEditor.jar",
-    "hash": "7fa324b8a4e29acbd80e844895973df460cef132dee71e88f5e45cdcded1aeef",
+    "url": "https://github.com/goatfungus/NMSSaveEditor/raw/1bf7e3ac2cab0f9fd15f1a79c223f202cd589a9d/NMSSaveEditor.jar",
+    "hash": "4b8420acb88717143deff5964b2ef2edc9a4ee7ddc3f65f1fd664cf2d57510b3",
     "pre_install": [
         "Set-Content -Path \"$dir\\NMSSaveEditor.bat\" -Value \"@echo off`njava -jar `\"$dir\\NMSSaveEditor.jar`\" %*\"",
         "if (-not (Test-Path \"$dir\\NMSSaveEditor.conf\")) { New-Item \"$dir\\NMSSaveEditor.conf\" -ItemType File | Out-Null }"
