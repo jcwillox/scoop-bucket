@@ -14,41 +14,43 @@ scoop install jcwillox/<app>
 
 ## Manifests
 
-<table>
-<tr><td><a href='https://github.com/toolbox4minecraft/amidst'><b>Amidst</b></a> — <a href='bucket/amidst.json'><code>amidst</code></a> <br> Minecraft interface and data/structure tracking tool <br><br></td></tr>
-<tr><td><a href='https://www.draw.io'><b>draw.io (Portable)</b></a> — <a href='bucket/draw.io-portable.json'><code>draw.io-portable</code></a> <br> Professional diagramming <br><br></td></tr>
-<tr><td><a href='https://github.com/esphome/esphome-flasher'><b>ESPHome Flasher</b></a> — <a href='bucket/esphome-flasher.json'><code>esphome-flasher</code></a> <br> Simple GUI tool to flash ESPs over USB <br><br></td></tr>
-<tr><td><a href='https://github.com/BattloXX/ESPEasyFlasher'><b>FlashESP8266</b></a> — <a href='bucket/FlashESP8266.json'><code>FlashESP8266</code></a> <br> Small UI to Flash ESPEasy <br><br></td></tr>
-<tr><td><a href='https://gdevs.io/'><b>GDLauncher</b></a> — <a href='bucket/gdlauncher.json'><code>gdlauncher</code></a> <br> Simple yet powerful Minecraft custom launcher with modpack support <br><br></td></tr>
-<tr><td><a href='https://ghidra-sre.org/'><b>Ghidra</b></a> — <a href='bucket/ghidra.json'><code>ghidra</code></a> <br> Ghidra is a software reverse engineering (SRE) framework by the NSA <br><br></td></tr>
-<tr><td><a href='https://gns3.com'><b>GNS3</b></a> — <a href='bucket/gns3.json'><code>gns3</code></a> <br> An advanced network simulator to design and configure virtual networks <br><br></td></tr>
-<tr><td><a href='https://handbrake.fr'><b>HandBrake (Portable)</b></a> — <a href='bucket/handbrake-portable.json'><code>handbrake-portable</code></a> <br> A tool for converting video from nearly any format to a selection of modern, widely supported codecs. <br><br></td></tr>
-<tr><td><a href='https://github.com/mrvnklm/homeassistant-desktop'><b>Home Assistant (Desktop)</b></a> — <a href='bucket/homeassistant-desktop.json'><code>homeassistant-desktop</code></a> <br> Unofficial electron based desktop application for Home Assistant <br><br></td></tr>
-<tr><td><a href='https://imagemagick.org/'><b>ImageMagick (Portable)</b></a> — <a href='bucket/imagemagick-portable.json'><code>imagemagick-portable</code></a> <br> Create, edit, compose, and convert 200+ of bitmap images formats. <br><br></td></tr>
-<tr><td><a href='https://github.com/ipinfo/cli'><b>IPinfo</b></a> — <a href='bucket/ipinfo.json'><code>ipinfo</code></a> <br> Official command line interface for the IPinfo API <br><br></td></tr>
-<tr><td><a href='https://github.com/histefanhere/XAHK'><b>Minescript</b></a> — <a href='bucket/minescript.json'><code>minescript</code></a> <br> Auto Clicker for Minecraft <br><br></td></tr>
-<tr><td><a href='https://multimc.org/'><b>MultiMC</b></a> — <a href='bucket/multimc.json'><code>multimc</code></a> <br> Launcher for Minecraft that allows for multiple, cleanly separated instances of Minecraft. <br><br></td></tr>
-<tr><td><a href='https://github.com/jaquadro/NBTExplorer'><b>NBTExplorer</b></a> — <a href='bucket/nbtexplorer.json'><code>nbtexplorer</code></a> <br> A graphical NBT editor for all Minecraft NBT data sources <br><br></td></tr>
-<tr><td><a href='https://www.nirsoft.net/utils/nircmd.html'><b>NirCmd</b></a> — <a href='bucket/nircmd.json'><code>nircmd</code></a> <br> Execute various system wide tasks. <br><br></td></tr>
-<tr><td><a href='https://github.com/goatfungus/NMSSaveEditor'><b>NMS Save Editor</b></a> — <a href='bucket/nms-save-editor.json'><code>nms-save-editor</code></a> <br> No Man's Sky save editor <br><br></td></tr>
-<tr><td><a href='https://github.com/dynobo/normcap'><b>NormCap</b></a> — <a href='bucket/normcap.json'><code>normcap</code></a> <br> OCR powered screen-capture tool to capture information instead of images <br><br></td></tr>
-<tr><td><a href='https://github.com/jstarks/npiperelay'><b>npiperelay</b></a> — <a href='bucket/npiperelay.json'><code>npiperelay</code></a> <br> Allows you to access Windows named pipes from WSL <br><br></td></tr>
-<tr><td><a href='https://github.com/PowerShell-Completion/npm-completion'><b>npm-completion</b></a> — <a href='bucket/npm-completion.json'><code>npm-completion</code></a> <br> A PowerShell module that adds tab completion for npm <br><br></td></tr>
-<tr><td><a href='https://pari.math.u-bordeaux.fr/'><b>PARI/GP</b></a> — <a href='bucket/pari-gp.json'><code>pari-gp</code></a> <br> PARI/GP is a widely used computer algebra system designed for fast computations in number theory <br><br></td></tr>
-<tr><td><a href='https://github.com/nakabonne/pbgopy'><b>pbgopy</b></a> — <a href='bucket/pbgopy.json'><code>pbgopy</code></a> <br> Command-line utility for cross-device copy and paste <br><br></td></tr>
-<tr><td><a href='https://github.com/PoshCode/Configuration'><b>PSConfiguration</b></a> — <a href='bucket/PSConfiguration.json'><code>PSConfiguration</code></a> <br> A PowerShell module to help other modules have settings <br><br></td></tr>
-<tr><td><a href='https://github.com/gngrninja/PSFolderSize'><b>PSFolderSize</b></a> — <a href='bucket/PSFolderSize.json'><code>PSFolderSize</code></a> <br> A PowerShell module to get folder sizes and export information easily <br><br></td></tr>
-<tr><td><a href='https://github.com/Cologler/PSLazyCompletion'><b>PSLazyCompletion</b></a> — <a href='bucket/PSLazyCompletion.json'><code>PSLazyCompletion</code></a> <br> Lazy load completion scripts for powershell <br><br></td></tr>
-<tr><td><a href='https://github.com/jcwillox/pwsh-search-web'><b>PowerShell Search Web</b></a> — <a href='bucket/pwsh-search-web.json'><code>pwsh-search-web</code></a> <br> Adds PowerShell functions for searching the web with several popular services. <br><br></td></tr>
-<tr><td><a href='https://github.com/marcelstoer/nodemcu-pyflasher'><b>NodeMCU PyFlasher</b></a> — <a href='bucket/pyflasher.json'><code>pyflasher</code></a> <br> Self-contained NodeMCU flasher with GUI based on esptool.py and wxPython. <br><br></td></tr>
-<tr><td><a href='https://github.com/VodBox/pyWinContext'><b>pyWinContext (Portable)</b></a> — <a href='bucket/pyWinContext-portable.json'><code>pyWinContext-portable</code></a> <br> Manager for Custom Context Menus in Windows 7 and higher <br><br></td></tr>
-<tr><td><a href='https://rclone.org'><b>Rclone (Portable)</b></a> — <a href='bucket/rclone-portable.json'><code>rclone-portable</code></a> <br> Sync files and directories to and from mulitple cloud / FTP / HTTP hosters. <br><br></td></tr>
-<tr><td><a href='https://github.com/itead/Sonoff_Devices_DIY_Tools'><b>Sonoff DIY Tool</b></a> — <a href='bucket/sonoff-diy-tool.json'><code>sonoff-diy-tool</code></a> <br> A tool to control sonoff devices and upload new firmware. <br><br></td></tr>
-<tr><td><a href='https://github.com/tasmota/tasmotizer'><b>Tasmotizer</b></a> — <a href='bucket/tasmotizer.json'><code>tasmotizer</code></a> <br> A full-featured flashing tool for the Tasmota firmware <br><br></td></tr>
-<tr><td><a href='https://github.com/TEdit/Terraria-Map-Editor'><b>TEdit</b></a> — <a href='bucket/tedit.json'><code>tedit</code></a> <br> TEdit is a stand alone, open source map editor for Terraria <br><br></td></tr>
-<tr><td><a href='https://github.com/devblackops/Terminal-Icons'><b>Terminal-Icons</b></a> — <a href='bucket/terminal-icons.json'><code>terminal-icons</code></a> <br> A PowerShell module to show file and folder icons in the terminal <br><br></td></tr>
-<tr><td><a href='https://terramap.github.io/windows.html'><b>TerraMap</b></a> — <a href='bucket/terramap.json'><code>terramap</code></a> <br> TerraMap is an interactive Terraria world map viewer <br><br></td></tr>
-<tr><td><a href='https://github.com/lptstr/winfetch'><b>Winfetch (Nightly)</b></a> — <a href='bucket/winfetch-nightly.json'><code>winfetch-nightly</code></a> <br> A command-line system information utility for Windows 10 <br><br></td></tr>
-<tr><td><a href='https://github.com/sclevine/yj'><b>yj</b></a> — <a href='bucket/yj.json'><code>yj</code></a> <br> CLI tool to convert between YAML, TOML, JSON, and HCL <br><br></td></tr>
-<tr><td><a href='https://ytmdesktop.app'><b>YouTube Music Desktop (Portable)</b></a> — <a href='bucket/ytmdesktop-portable.json'><code>ytmdesktop-portable</code></a> <br> An unofficial desktop app for YouTube Music <br><br></td></tr>
-</table>
+<!-- table -->
+| Manifests |
+| --------- |
+| [**Amidst**](https://github.com/toolbox4minecraft/amidst) — [`amidst`](bucket/amidst.json)<br>Minecraft interface and data/structure tracking tool<br><br> |
+| [**draw.io (Portable)**](https://www.draw.io) — [`draw.io-portable`](bucket/draw.io-portable.json)<br>Professional diagramming<br><br> |
+| [**ESPHome Flasher**](https://github.com/esphome/esphome-flasher) — [`esphome-flasher`](bucket/esphome-flasher.json)<br>Simple GUI tool to flash ESPs over USB<br><br> |
+| [**FlashESP8266**](https://github.com/BattloXX/ESPEasyFlasher) — [`FlashESP8266`](bucket/FlashESP8266.json)<br>Small UI to Flash ESPEasy<br><br> |
+| [**GDLauncher**](https://gdevs.io/) — [`gdlauncher`](bucket/gdlauncher.json)<br>Simple yet powerful Minecraft custom launcher with modpack support<br><br> |
+| [**Ghidra**](https://ghidra-sre.org/) — [`ghidra`](bucket/ghidra.json)<br>Ghidra is a software reverse engineering (SRE) framework by the NSA<br><br> |
+| [**GNS3**](https://gns3.com) — [`gns3`](bucket/gns3.json)<br>An advanced network simulator to design and configure virtual networks<br><br> |
+| [**HandBrake (Portable)**](https://handbrake.fr) — [`handbrake-portable`](bucket/handbrake-portable.json)<br>A tool for converting video from nearly any format to a selection of modern, widely supported codecs.<br><br> |
+| [**Home Assistant (Desktop)**](https://github.com/mrvnklm/homeassistant-desktop) — [`homeassistant-desktop`](bucket/homeassistant-desktop.json)<br>Unofficial electron based desktop application for Home Assistant<br><br> |
+| [**ImageMagick (Portable)**](https://imagemagick.org/) — [`imagemagick-portable`](bucket/imagemagick-portable.json)<br>Create, edit, compose, and convert 200+ of bitmap images formats.<br><br> |
+| [**IPinfo**](https://github.com/ipinfo/cli) — [`ipinfo`](bucket/ipinfo.json)<br>Official command line interface for the IPinfo API<br><br> |
+| [**Minescript**](https://github.com/histefanhere/XAHK) — [`minescript`](bucket/minescript.json)<br>Auto Clicker for Minecraft<br><br> |
+| [**MultiMC**](https://multimc.org/) — [`multimc`](bucket/multimc.json)<br>Launcher for Minecraft that allows for multiple, cleanly separated instances of Minecraft.<br><br> |
+| [**NBTExplorer**](https://github.com/jaquadro/NBTExplorer) — [`nbtexplorer`](bucket/nbtexplorer.json)<br>A graphical NBT editor for all Minecraft NBT data sources<br><br> |
+| [**NirCmd**](https://www.nirsoft.net/utils/nircmd.html) — [`nircmd`](bucket/nircmd.json)<br>Execute various system wide tasks.<br><br> |
+| [**NMS Save Editor**](https://github.com/goatfungus/NMSSaveEditor) — [`nms-save-editor`](bucket/nms-save-editor.json)<br>No Man's Sky save editor<br><br> |
+| [**NormCap**](https://github.com/dynobo/normcap) — [`normcap`](bucket/normcap.json)<br>OCR powered screen-capture tool to capture information instead of images<br><br> |
+| [**npiperelay**](https://github.com/jstarks/npiperelay) — [`npiperelay`](bucket/npiperelay.json)<br>Allows you to access Windows named pipes from WSL<br><br> |
+| [**npm-completion**](https://github.com/PowerShell-Completion/npm-completion) — [`npm-completion`](bucket/npm-completion.json)<br>A PowerShell module that adds tab completion for npm<br><br> |
+| [**PARI/GP**](https://pari.math.u-bordeaux.fr/) — [`pari-gp`](bucket/pari-gp.json)<br>PARI/GP is a widely used computer algebra system designed for fast computations in number theory<br><br> |
+| [**pbgopy**](https://github.com/nakabonne/pbgopy) — [`pbgopy`](bucket/pbgopy.json)<br>Command-line utility for cross-device copy and paste<br><br> |
+| [**PSConfiguration**](https://github.com/PoshCode/Configuration) — [`PSConfiguration`](bucket/PSConfiguration.json)<br>A PowerShell module to help other modules have settings<br><br> |
+| [**PSFolderSize**](https://github.com/gngrninja/PSFolderSize) — [`PSFolderSize`](bucket/PSFolderSize.json)<br>A PowerShell module to get folder sizes and export information easily<br><br> |
+| [**PSLazyCompletion**](https://github.com/Cologler/PSLazyCompletion) — [`PSLazyCompletion`](bucket/PSLazyCompletion.json)<br>Lazy load completion scripts for powershell<br><br> |
+| [**PowerShell Search Web**](https://github.com/jcwillox/pwsh-search-web) — [`pwsh-search-web`](bucket/pwsh-search-web.json)<br>Adds PowerShell functions for searching the web with several popular services.<br><br> |
+| [**NodeMCU PyFlasher**](https://github.com/marcelstoer/nodemcu-pyflasher) — [`pyflasher`](bucket/pyflasher.json)<br>Self-contained NodeMCU flasher with GUI based on esptool.py and wxPython.<br><br> |
+| [**pyWinContext (Portable)**](https://github.com/VodBox/pyWinContext) — [`pyWinContext-portable`](bucket/pyWinContext-portable.json)<br>Manager for Custom Context Menus in Windows 7 and higher<br><br> |
+| [**Rclone (Portable)**](https://rclone.org) — [`rclone-portable`](bucket/rclone-portable.json)<br>Sync files and directories to and from mulitple cloud / FTP / HTTP hosters.<br><br> |
+| [**Sonoff DIY Tool**](https://github.com/itead/Sonoff_Devices_DIY_Tools) — [`sonoff-diy-tool`](bucket/sonoff-diy-tool.json)<br>A tool to control sonoff devices and upload new firmware.<br><br> |
+| [**Tasmotizer**](https://github.com/tasmota/tasmotizer) — [`tasmotizer`](bucket/tasmotizer.json)<br>A full-featured flashing tool for the Tasmota firmware<br><br> |
+| [**TEdit**](https://github.com/TEdit/Terraria-Map-Editor) — [`tedit`](bucket/tedit.json)<br>TEdit is a stand alone, open source map editor for Terraria<br><br> |
+| [**Terminal-Icons**](https://github.com/devblackops/Terminal-Icons) — [`terminal-icons`](bucket/terminal-icons.json)<br>A PowerShell module to show file and folder icons in the terminal<br><br> |
+| [**TerraMap**](https://terramap.github.io/windows.html) — [`terramap`](bucket/terramap.json)<br>TerraMap is an interactive Terraria world map viewer<br><br> |
+| [**Winfetch (Nightly)**](https://github.com/lptstr/winfetch) — [`winfetch-nightly`](bucket/winfetch-nightly.json)<br>A command-line system information utility for Windows 10<br><br> |
+| [**yj**](https://github.com/sclevine/yj) — [`yj`](bucket/yj.json)<br>CLI tool to convert between YAML, TOML, JSON, and HCL<br><br> |
+| [**YouTube Music Desktop (Portable)**](https://ytmdesktop.app) — [`ytmdesktop-portable`](bucket/ytmdesktop-portable.json)<br>An unofficial desktop app for YouTube Music<br><br> |
+<!-- table-end -->
