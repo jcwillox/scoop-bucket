@@ -1,14 +1,14 @@
 {
-    "version": "0.3.6",
+    "version": "0.3.7",
     "description": "OCR powered screen-capture tool to capture information instead of images",
     "homepage": "https://github.com/dynobo/normcap",
     "license": "GPL-3.0-or-later",
     "url": [
-        "https://github.com/dynobo/normcap/releases/download/v0.3.6/NormCap-0.3.6-Windows.msi",
+        "https://github.com/dynobo/normcap/releases/download/v0.3.7/NormCap-0.3.7-Windows.msi",
         "https://github.com/dynobo/normcap/raw/v0.3.5/package/imgs/normcap.ico"
     ],
     "hash": [
-        "692fc6a6702fd1a2594ffefbd675ef1014107dcb2d178eaf5f4231b8732a5e43",
+        "f1c33586366ccca51cd636c851eaf60eb3b731f9615cfc16efa5939f7942e6bd",
         "9ceca1624d57b6986213064ecfec50e2db12330309f1b5b302b6641669c9f085"
     ],
     "extract_dir": "NormCap",
