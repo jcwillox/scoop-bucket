@@ -18,7 +18,6 @@ scoop install jcwillox/<app>
 | Manifests |
 | --------- |
 | [**Amidst**](https://github.com/toolbox4minecraft/amidst) — [`amidst`](bucket/amidst.json)<br>Minecraft interface and data/structure tracking tool<br><br> |
-| [**draw.io (Portable)**](https://www.draw.io) — [`draw.io-portable`](bucket/draw.io-portable.json)<br>Professional diagramming<br><br> |
 | [**ESPHome Flasher**](https://github.com/esphome/esphome-flasher) — [`esphome-flasher`](bucket/esphome-flasher.json)<br>Simple GUI tool to flash ESPs over USB<br><br> |
 | [**FlashESP8266**](https://github.com/BattloXX/ESPEasyFlasher) — [`FlashESP8266`](bucket/FlashESP8266.json)<br>Small UI to Flash ESPEasy<br><br> |
 | [**GDLauncher**](https://gdevs.io/) — [`gdlauncher`](bucket/gdlauncher.json)<br>Simple yet powerful Minecraft custom launcher with modpack support<br><br> |
