@@ -26,7 +26,6 @@ scoop install jcwillox/<app>
 | [**GNS3**](https://gns3.com) — [`gns3`](bucket/gns3.json)<br>An advanced network simulator to design and configure virtual networks<br><br> |
 | [**HandBrake (Portable)**](https://handbrake.fr) — [`handbrake-portable`](bucket/handbrake-portable.json)<br>A tool for converting video from nearly any format to a selection of modern, widely supported codecs.<br><br> |
 | [**Home Assistant (Desktop)**](https://github.com/mrvnklm/homeassistant-desktop) — [`homeassistant-desktop`](bucket/homeassistant-desktop.json)<br>Unofficial electron based desktop application for Home Assistant<br><br> |
-| [**ImageMagick (Portable)**](https://imagemagick.org/) — [`imagemagick-portable`](bucket/imagemagick-portable.json)<br>Create, edit, compose, and convert 200+ of bitmap images formats.<br><br> |
 | [**IPinfo**](https://github.com/ipinfo/cli) — [`ipinfo`](bucket/ipinfo.json)<br>Official command line interface for the IPinfo API<br><br> |
 | [**Minescript**](https://github.com/histefanhere/XAHK) — [`minescript`](bucket/minescript.json)<br>Auto Clicker for Minecraft<br><br> |
 | [**MultiMC**](https://multimc.org/) — [`multimc`](bucket/multimc.json)<br>Launcher for Minecraft that allows for multiple, cleanly separated instances of Minecraft.<br><br> |
