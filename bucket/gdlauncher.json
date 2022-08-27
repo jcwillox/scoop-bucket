@@ -1,10 +1,10 @@
 {
-    "version": "1.1.27",
+    "version": "1.1.28",
     "description": "Simple yet powerful Minecraft custom launcher with modpack support",
     "homepage": "https://gdevs.io/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/gorilla-devs/GDLauncher/releases/download/v1.1.27/GDLauncher-win-portable.zip",
-    "hash": "b01d0c6e36a976a7f9dfc47bbeda44321f79e0803089ec2921ddc2115ece54bf",
+    "url": "https://github.com/gorilla-devs/GDLauncher/releases/download/v1.1.28/GDLauncher-win-portable.zip",
+    "hash": "39ce031ee8b426bc3c897e8c2d3827a907d25119161b00dfe08529da7494e234",
     "shortcuts": [
         [
             "GDLauncher.exe",
