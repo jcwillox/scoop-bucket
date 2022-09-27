@@ -1,6 +1,6 @@
 {
     "##": "Uses a better default multimc.cfg compared to the scoop-games version",
-    "version": "0.6.13",
+    "version": "0.6.14",
     "description": "Launcher for Minecraft that allows for multiple, cleanly separated instances of Minecraft.",
     "homepage": "https://multimc.org/",
     "license": "Apache-2.0",
