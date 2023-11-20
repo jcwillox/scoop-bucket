@@ -1,17 +1,17 @@
 {
     "##": ":IPinfo",
-    "version": "2.9.0",
+    "version": "3.2.0",
     "description": "Official command line interface for the IPinfo API",
     "homepage": "https://github.com/ipinfo/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-2.9.0/ipinfo_2.9.0_windows_amd64.zip",
-            "hash": "177faa80a655483a397e85a67e679d855c3cdc94a0a1ffb67b9826a3f23e429d"
+            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-3.2.0/ipinfo_3.2.0_windows_amd64.zip",
+            "hash": "14e924260c31066d73496a35bd59a4e229701768e105645d5d191119f0685aaf"
         },
         "32bit": {
-            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-2.9.0/ipinfo_2.9.0_windows_386.zip",
-            "hash": "f3e3d1535d78d7a8f9c3f883500e875534ee90910471ead918b0c43ff7a77076"
+            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-3.2.0/ipinfo_3.2.0_windows_386.zip",
+            "hash": "3fde9e49d6061c85031ffd6fe2809375fb2e0043323e82a20c6bbd91e8b60d54"
         }
     },
     "pre_install": "Rename-Item \"$dir\\ipinfo_*.exe\" ipinfo.exe",
