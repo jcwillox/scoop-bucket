@@ -47,6 +47,7 @@ scoop install jcwillox/<app>
 | [**TEdit**](https://github.com/TEdit/Terraria-Map-Editor) — [`tedit`](bucket/tedit.json)<br>TEdit is a stand alone, open source map editor for Terraria<br><br> |
 | [**Terminal-Icons**](https://github.com/devblackops/Terminal-Icons) — [`terminal-icons`](bucket/terminal-icons.json)<br>A PowerShell module to show file and folder icons in the terminal<br><br> |
 | [**TerraMap**](https://terramap.github.io/windows.html) — [`terramap`](bucket/terramap.json)<br>TerraMap is an interactive Terraria world map viewer<br><br> |
+| [**Vortex**](https://www.nexusmods.com/about/vortex) — [`vortex`](bucket/vortex.json)<br>Open-source mod manager from Nexus Mods<br><br> |
 | [**Winfetch (Nightly)**](https://github.com/lptstr/winfetch) — [`winfetch-nightly`](bucket/winfetch-nightly.json)<br>A command-line system information utility for Windows 10<br><br> |
 | [**yj**](https://github.com/sclevine/yj) — [`yj`](bucket/yj.json)<br>CLI tool to convert between YAML, TOML, JSON, and HCL<br><br> |
 | [**YouTube Music Desktop (Portable)**](https://ytmdesktop.app) — [`ytmdesktop-portable`](bucket/ytmdesktop-portable.json)<br>An unofficial desktop app for YouTube Music<br><br> |
