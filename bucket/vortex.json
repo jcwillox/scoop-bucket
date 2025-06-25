@@ -1,12 +1,12 @@
 {
-    "version": "1.14.4",
+    "version": "1.14.5",
     "description": "Open-source mod manager from Nexus Mods",
     "homepage": "https://www.nexusmods.com/about/vortex",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nexus-Mods/Vortex/releases/download/v1.14.4/vortex-setup-1.14.4.exe#/dl.7z",
-            "hash": "sha512:5a2ea90e0f43663b9ff33ddf2f58271a794cfbb47418e321c8ef9ad9d817fd1006f2db57f00f14753a7b57bd2bc30ee8cb0d50347493964c4742b0cdf28f199f",
+            "url": "https://github.com/Nexus-Mods/Vortex/releases/download/v1.14.5/vortex-setup-1.14.5.exe#/dl.7z",
+            "hash": "sha512:a8ebd9dfa18313274a7250f6695a494769f73354d393ae73414c09c68cdb7f34f53f035d3290b183ea0856e4f3c6d16bd77d9c87497a43ab3a7003aea5c66dd3",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
