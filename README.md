@@ -30,6 +30,7 @@ scoop install jcwillox/<app>
 | [**NBTExplorer**](https://github.com/jaquadro/NBTExplorer) — [`nbtexplorer`](bucket/nbtexplorer.json)<br>A graphical NBT editor for all Minecraft NBT data sources<br><br> |
 | [**NirCmd**](https://www.nirsoft.net/utils/nircmd.html) — [`nircmd`](bucket/nircmd.json)<br>Execute various system wide tasks.<br><br> |
 | [**NMS Save Editor**](https://github.com/goatfungus/NMSSaveEditor) — [`nms-save-editor`](bucket/nms-save-editor.json)<br>No Man's Sky save editor<br><br> |
+| [**node-alias**](https://github.com/jcwillox/node-alias) — [`node-alias`](bucket/node-alias.json)<br>A smart alias for all node package managers<br><br> |
 | [**NormCap**](https://github.com/dynobo/normcap) — [`normcap`](bucket/normcap.json)<br>OCR powered screen-capture tool to capture information instead of images<br><br> |
 | [**npiperelay**](https://github.com/jstarks/npiperelay) — [`npiperelay`](bucket/npiperelay.json)<br>Allows you to access Windows named pipes from WSL<br><br> |
 | [**npm-completion**](https://github.com/PowerShell-Completion/npm-completion) — [`npm-completion`](bucket/npm-completion.json)<br>A PowerShell module that adds tab completion for npm<br><br> |
